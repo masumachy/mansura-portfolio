@@ -1,0 +1,199 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,200;0,300;0,700;1,100;1,200;1,500&display=swap');
+/*01. Common css*/
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.container{
+    width: 1140px;
+    margin: 0 auto;
+}
+html,body{
+    height: 100%;
+}
+body{
+    font-family: 'Poppins', sans-serif;
+    font-size: 16px;
+    font-weight: 0,300;
+    color: #333;
+}
+a{
+    color: #333;
+    transition: .3s;
+    text-decoration: none;
+}
+
+h1,h2,h3,h4,h5,h6{
+    font-weight: 700;
+}
+.h-100{
+    height: 100%;
+}
+.pt-80{
+    padding-top: 70px;
+}
+.pb-80{
+    padding-bottom: 70px;
+}
+/*01. end here*/
+/*02. header area*/
+.header-area {
+    background-color: #333;
+}
+.navbar-brand {
+    font-size: 20px;
+    font-weight: 600;
+}
+a.navbar-brand{
+    color: #fff !important;
+}
+a.navbar-brand:hover{
+    color: #c3c318 !important;
+}
+.navbar-nav a {
+    color: #fff !important;
+}
+.navbar-nav a:hover {
+    border-bottom: 1px solid #c3c318;
+    padding-bottom: 5px;
+}
+/*02. header area end here*/
+/*03. banner area start here*/
+.banner-left img, .about-right img {
+    width: 100%;
+    border-radius: 5px;
+}
+.row.banner, .row.about{
+    align-items: center;
+}
+.banner-right {
+    text-transform: capitalize;
+}
+.banner-right h3, .about-left h3 {
+    color: #c3c318;
+}
+.banner-right p {
+    text-transform: lowercase;
+}
+.social-media a {
+    margin-right: 15px;
+    font-size: 30px;
+}
+.social-media a:hover {
+    color: #c3c318;
+}
+.border-btn, .box-btn {
+    padding: 5px 10px;
+    margin-top: 10px;
+    display: inline-block;
+    border-radius: 10px;
+    text-transform: uppercase;
+    font-size: 14px;
+}
+.border-btn{
+    border: 2px dotted #c3c318;
+}
+.border-btn:hover {
+    background-color: #c3c318;
+    color: #fff;
+}
+/*03. banner area end here*/
+/*04. about area start here*/
+.about-area{
+    background-color: #333;
+    color: #fff;
+    text-transform: capitalize;
+}
+.box-btn{
+    background-color: #c3c318;
+    color: #fff;
+}
+.box-btn:hover{
+    color: #c3c318;
+    border: 1px solid #c3c318;
+    background-color: #333;
+}
+/*04. about area end here*/
+/*05. skill area start here*/
+.skill-area, .design-area{
+    text-transform: capitalize;
+}
+.section-title{
+    padding-bottom: 20px;
+}
+.section-title h3{
+    color: #c3c318;
+}
+.single-skill img {
+    width: 150px;
+}
+.single-skill span {
+    display: block;
+    font-size: 20px;
+    margin-top: 10px;
+}
+.single-skill {
+    padding: 20px 0;
+    box-shadow: 1px 1px 10px 1px #c1c118;
+}
+/*05. skill area end here*/
+/*06. design area start here*/
+.design-area{
+    background-color: #333;
+    color: #fff;
+}
+.single-design img {
+    width: 100%;
+    border-radius: 10px;
+    transition: .7s;
+}
+.single-design {
+    margin-bottom: 25px;
+    overflow: hidden;
+}
+.single-design img:hover{
+    transform: scale(1.1);
+    border-radius: 10px;
+}
+.design a{
+    color: #fff;
+    font-size: 20px;
+}
+::selection {
+    color: #fff;
+    background: #c1c118;
+} 
+/*06. design area end here*/
+/*07. experience area start here*/
+.single-experience h6 span {
+    font-weight: 300;
+}
+/*07. experience area end here*/
+/*08. footer area start here*/
+.footer-area{
+    background-color: #333;
+    color: #fff;
+}
+.social-media-footer a{
+    color: #fff;
+}
+.footer-left h4 {
+    color: #c1c118;
+}
+.footer-left span, .single-footer span{
+    display: block;
+    font-size: 14px;
+    margin-bottom: 10px;
+}
+.container.footer {
+    border-bottom: 1px solid #5a5b5c;
+}
+.footer-top{
+    margin-bottom: 40px;
+}
+.footer-bottom{
+    background-color: #333;
+    color: #fff;
+}
+/*07. footer area end here*/
